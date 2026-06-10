@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #183d63;
+    color: white;
+    font-family: "Lalezar", sans-serif;
+    font-size: 2rem;
+}
+
+.container {
+    text-align: center;
+}
+
+span#updateContent {
+    color: rgb(255, 217, 49);
+}
+
+button {
+    font-family: inherit;
+    font-size: 1.5rem;
+    background-color: rgb(255, 217, 49);
+    color: #183d63;
+    padding: 0.5rem 1rem;
+    border: 2px solid honeydew;
+    box-shadow: 0 0 5px 3px #122d49;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: rgb(255, 237, 157);
+}
+
+.underline {
+    border-bottom: 1px solid white;
+}
