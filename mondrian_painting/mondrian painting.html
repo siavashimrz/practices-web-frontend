@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      display: grid;
+      grid-template: 414px 130px 155px 22px / 320px 198px 153px 50px;
+      gap: 9px;
+      background-color: black;
+      width: 748px;
+      height: 748px;
+    }
+
+    .white {
+      background-color: #F0F1EC;
+    }
+
+    .red {
+      background-color: #E72F24;
+    }
+
+    .black {
+      background-color: #232629;
+    }
+
+    .blue {
+      background-color: #004592;
+      border-bottom: 10px solid black;
+    }
+
+    .yellow {
+      background-color: #F9D01E;
+    }
+
+    .one {
+      grid-area: 1 /2 /2 / -1;
+    }
+
+    .two {
+      grid-area: 2 / 1 / 4 / 2;
+    }
+
+    .three {
+      grid-area: 2 / 2 / 4 / 4;
+    }
+
+    .four {
+      grid-area: 4 / 1 / -1 / 2;
+    }
+
+    .five {
+      grid-area: 3 / 4 / -1 / -1;
+    }
+
+    p {
+      margin-top: 30px;
+    }
+
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="red"></div>
+    <div class="white one"></div>
+    <div class="white two"></div>
+    <div class="white three"></div>
+    <div class="white four"></div>
+    <div class="white five"></div>
+    <div class="blue"></div>
+    <div class="yellow"></div>
+    <div class="black"></div>
+  </div>
+  <p>⊹₊ ˚‧︵‿₊ Created with CSS ₊‿︵‧ ˚ ₊⊹</p>
+</body>
+
+</html>
